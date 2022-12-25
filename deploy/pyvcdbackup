@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export VCLOUD_HOME="/opt/vmware/vcloud-director"
+export VMWARE_POSTGRES_BIN="/opt/vmware/vpostgres/current/bin"
+/usr/bin/python /opt/vmware/vcloud-director/data/transfer/pyvcdbackup/pyvcdbackup.py
